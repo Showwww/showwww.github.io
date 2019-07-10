@@ -5,9 +5,11 @@
     "popper.js": "^1.15.0"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "buid": "parcel build -d docs index.html"
   },
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "sass": "^1.22.3"
   }
 }
