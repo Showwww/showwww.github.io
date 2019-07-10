@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "buid": "parcel build -d docs index.html"
+    "buid": "parcel build index.html"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
