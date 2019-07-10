@@ -1,7 +1,9 @@
 language: node_js
-node_js:
-  - '12.6.0'
-cache: npm
+node_js: '12.6.0'
+cache:
+  npm: true
+  directories:
+    - dist
 sudo: false
 
 install:
