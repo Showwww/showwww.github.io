@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="270c67d1-6e92-4664-9024-429cc1f28532" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.cache/13/57eb1f228cc8492f246b3298c8225e.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/13/57eb1f228cc8492f246b3298c8225e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/20/12f859e71da9743c83cff1dbdafa4c.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/20/12f859e71da9743c83cff1dbdafa4c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/37/c41f2978baa19542f3cb0a921a6ab7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/37/c41f2978baa19542f3cb0a921a6ab7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/5b/ec3edd2b8b4c7c70f50a7c293749d4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/5b/ec3edd2b8b4c7c70f50a7c293749d4.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/97/51d4a52f4816f213658be05e387975.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/97/51d4a52f4816f213658be05e387975.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/b4/fe9d38c7a8a2d7e07a3fd785f7eff9.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b4/fe9d38c7a8a2d7e07a3fd785f7eff9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e0/efc968406b93d16b3ec8fff404ebb5.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e0/efc968406b93d16b3ec8fff404ebb5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -27,10 +21,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="422">
+              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,12 +146,13 @@
       <option name="presentableId" value="Default" />
       <updated>1562752251332</updated>
       <workItem from="1562752252512" duration="143000" />
-      <workItem from="1562757149953" duration="1639000" />
+      <workItem from="1562757149953" duration="1791000" />
+      <workItem from="1562787517282" duration="846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2744000" />
+    <option name="totallyTimeSpent" value="3742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,12 +166,12 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49911818" visible="true" weight="0.24947146" />
-      <window_info id="Structure" order="1" sideWeight="0.5020747" side_tool="true" weight="0.24947146" />
-      <window_info id="Favorites" order="2" sideWeight="0.50088185" side_tool="true" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752882" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" sideWeight="0.50247115" side_tool="true" visible="true" weight="0.24947146" />
+      <window_info id="Favorites" order="2" sideWeight="0.50088185" side_tool="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27909738" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27909738" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -184,7 +179,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" weight="0.32914925" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32914925" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32660332" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32660332" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -230,19 +225,10 @@
     <MESSAGE value="Added travis" />
     <option name="LAST_COMMIT_MESSAGE" value="Added travis" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.html</url>
-          <line>13</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -250,18 +236,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="422">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
