@@ -2,11 +2,12 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
+    "parcel": "^1.12.3",
     "popper.js": "^1.15.0"
   },
   "scripts": {
     "start": "parcel index.html",
-    "buid": "parcel build index.html"
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",

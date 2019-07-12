@@ -1,12 +1,14 @@
-language: nodejs
-cache: npm
+language: node_js
+node_js: '12.6.0'
+cache:
+  yarn: true
 sudo: false
 
 install:
-  - npm install
+  - yarn install
 
 script:
-  - npm build
+  - yarn build
 
 deploy:
   provider: pages

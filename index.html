@@ -1,24 +1,27 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-
-    <link rel="manifest" href="manifest.webmanifest">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#2F3BA2" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Showww">
-    <script src="./service-worker.js"></script>
-    <script>
+  <title> BestWebBuild</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Test description">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#2F3BA2"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <meta name="view-port" content="width=device-width, initial-scale=1">
+  <script>
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js')
-                    .then((reg) => {
-                        console.log('Service worker registered.', reg);
-                    });
-            });
+            navigator.serviceWorker.register('./sw.js')
+                .then(function (registration) {
+                    console.log('Registration successful, scope is:', registration.scope);
+                })
+                .catch(function (error) {
+                    console.log('Service worker registration failed, error:', error);
+                });
         }
     </script>
-    <title> BestWebBuild</title>
 </head>
 <body>
 <div class="col-lg-4">
@@ -47,5 +50,6 @@
 
 
 <script src="./src/index.js"></script>
+<script src="./sw.js"></script>
 </body>
 </html>
