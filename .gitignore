@@ -8,3 +8,4 @@
 dist
 logs
 pids
+node_modules
