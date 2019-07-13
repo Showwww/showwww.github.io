@@ -14,6 +14,6 @@ deploy:
     branch: development
   github-token: $GITHUB_TOKEN
   local-dir: dist
-  keep-history: true
+    keep-history: true
   committer-from-gh: true
   target_branch: master

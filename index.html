@@ -12,44 +12,62 @@
   <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
   <meta name="view-port" content="width=device-width, initial-scale=1">
   <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./sw.js')
-                .then(function (registration) {
-                    console.log('Registration successful, scope is:', registration.scope);
-                })
-                .catch(function (error) {
-                    console.log('Service worker registration failed, error:', error);
-                });
-        }
-    </script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js')
+        .then(function (registration) {
+          console.log('Registration successful, scope is:', registration.scope);
+        })
+        .catch(function (error) {
+          console.log('Service worker registration failed, error:', error);
+        });
+    }
+  </script>
 </head>
 <body>
-<div class="col-lg-4">
-    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-         focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
-    <h2>Heading</h2>
-    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-    <p><a class="btn btn-secondary" href=par"#" role="button">View details »</a></p>
+<div class="nav-scroller py-1 mb-2">
+  <nav class="nav d-flex justify-content-between">
+    <a class="p-2 text-muted" href="#">World</a>
+    <a class="p-2 text-muted" href="#">U.S.</a>
+    <a class="p-2 text-muted" href="#">Technology</a>
+    <a class="p-2 text-muted" href="#">Design</a>
+    <a class="p-2 text-muted" href="#">Culture</a>
+    <a class="p-2 text-muted" href="#">Business</a>
+    <a class="p-2 text-muted" href="#">Politics</a>
+    <a class="p-2 text-muted" href="#">Opinion</a>
+    <a class="p-2 text-muted" href="#">Science</a>
+    <a class="p-2 text-muted" href="#">Health</a>
+    <a class="p-2 text-muted" href="#">Style</a>
+    <a class="p-2 text-muted" href="#">Travel</a>
+  </nav>
+</div>
 
-<div class="row ">
-    <div class="col-xs-4">
-        <button class="btn btn-block btn-primary">Like</button>
+<hr class="featurette-divider">
+
+<div class="container">
+
+  <form class="form-inline" data-ember-action="" data-ember-action-392="392" data-ember-action-393="393"><label
+    for="search-bar-form" class="sr-only">Search bar</label><i
+    class="ion ion-ios-search-strong search-text-icon"></i>
+    <input id="search-bar-form" type="text" placeholder="Search tons of free photos..."
+           class="form-control-lg w-75">
+    <button type="submit" class="btn btn-lg btn-black  search-text-button">Search</button>
+  </form>
+  <div class="row featurette">
+    <div class="col-md-4">
+
+      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span>
+      </h2>
+
     </div>
-    <div class="col-xs-4">
-        <button class="btn btn-block btn-info">Info</button>
-    </div>
-    <div class="col-xs-4">
-        <button class="btn btn-block btn-danger">Delete</button>
-    </div>
+  </div>
 </div>
 </div>
-    <div class="mk-image-holder" style="max-width: 901px;"><div class="mk-image-inner  ">
-        <img class="lightbox-false"  width="901" height="901" src="http://m1atlasquest.com/storage/2019/06/2.png">
-    </div>
 
 
+<div class="col-md-5">
 
-<script src="./src/index.js"></script>
-<script src="./sw.js"></script>
+
+  <script src="./src/index.js"></script>
+  <script src="./sw.js"></script>
 </body>
 </html>
