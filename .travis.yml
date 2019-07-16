@@ -3,11 +3,12 @@ sudo: false
 node_js:
   - 10.16.0
 
+
 install:
-  - yarn install
+  - npm install
 
 script:
-  - yarn build
+  - npm build
 
 deploy:
   provider: pages
